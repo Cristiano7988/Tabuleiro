@@ -1,0 +1,462 @@
+/* DADO */
+
+	#dado 	{	position: absolute; top: 640px; left: 600px;				}
+	#numero {	position: absolute; top: 640px; left: 700px; color: white;	}
+
+	body 	{	background: black;	}
+
+	div {
+	width: 47px;
+	height: 47px;
+	border: 1px solid black;
+	position: fixed;
+	box-shadow: 0px 0px 20px gray inset;
+	font-size: 9px;
+	text-align: center;
+	padding: 2px;
+	}
+
+/* PERSONAGENS */	
+
+	.p {
+	box-shadow: 5px 5px 10px black;
+	border-radius: 50%;
+	position: static;
+	top: 70px;
+	width: 40px;
+	height: 40px;
+	}
+
+	#p 	{	background: deepskyblue;	}
+	#p2 {	background: red;			}
+
+	#sep1li2, #sep1li3 {	position: fixed;	}
+	
+/* POSICIONAMENTO */
+	
+	.fix	{top: 0px; background: #ffffff;}	.sep 		{top: 0px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li2 	{top: 52px; background: #ffffff;}	.sepli2 	{top: 52px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li3 	{top: 104px; background: #ffffff;}	.sepli3  	{top: 104px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li4 	{top: 156px; background: #ffffff;}	.sepli4  	{top: 156px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li5 	{top: 208px; background: #ffffff}	.sepli5  	{top: 208px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li6 	{top: 260px; background: #ffffff}	.sepli6  	{top: 260px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li7 	{top: 312px; background: #ffffff}	.sepli7  	{top: 312px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li8 	{top: 364px;background: #ffffff}	.sepli8  	{top: 364px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li9 	{top: 416px; background: #ffffff}	.sepli9  	{top: 416px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li10 	{top: 468px; background: #ffffff}	.sepli10 	{top: 468px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li11 	{top: 520px; background: #ffffff}	.sepli11  	{top: 520px; border: 0px; box-shadow: 0px 0px 0px;}
+	.li12 	{top: 572px; background: #ffffff}	.sepli12  	{top: 572px; border: 0px; box-shadow: 0px 0px 0px;}
+
+	#bl1, #sep1, 	#bl1li2, #sep1li2,		#bl1li3, #sep1li3,		#bl1li4, #sep1li4,		#bl1li5, #sep1li5,		#bl1li6, #sep1li6,		#bl1li7, #sep1li7,		#bl1li8, #sep1li8,		#bl1li9, #sep1li9,		#bl1li10, #sep1li10,	#bl1li11, #sep1li11,	#bl1li12, #sep1li12		{left: 0px;}
+	#bl2, #sep2, 	#bl2li2, #sep2li2, 		#bl2li3, #sep2li3,		#bl2li4, #sep2li4,		#bl2li5, #sep2li5,		#bl2li6, #sep2li6,		#bl2li7, #sep2li7, 		#bl2li8, #sep2li8,		#bl2li9, #sep2li9,		#bl2li10, #sep2li10,	#bl2li11, #sep2li11,	#bl2li12, #sep2li12		{left: 52px;}
+	#bl3, #sep3, 	#bl3li2, #sep3li2, 		#bl3li3, #sep3li3,		#bl3li4, #sep3li4,		#bl3li5, #sep3li5,		#bl3li6, #sep3li6,		#bl3li7, #sep3li7, 		#bl3li8, #sep3li8,		#bl3li9, #sep3li9,		#bl3li10, #sep3li10,	#bl3li11, #sep3li11,	#bl3li12, #sep3li12		{left: 104px;}
+	#bl4, #sep4, 	#bl4li2, #sep4li2, 		#bl4li3, #sep4li3,		#bl4li4, #sep4li4,		#bl4li5, #sep4li5,		#bl4li6, #sep4li6,		#bl4li7, #sep4li7, 		#bl4li8, #sep4li8,		#bl4li9, #sep4li9,		#bl4li10, #sep4li10,	#bl4li11, #sep4li11,	#bl4li12, #sep4li12		{left: 156px;}
+	#bl5, #sep5, 	#bl5li2, #sep5li2,		#bl5li3, #sep5li3,		#bl5li4, #sep5li4,		#bl5li5, #sep5li5,		#bl5li6, #sep5li6,		#bl5li7, #sep5li7,		#bl5li8, #sep5li8,		#bl5li9, #sep5li9,		#bl5li10, #sep5li10,	#bl5li11, #sep5li11,	#bl5li12, #sep5li12		{left: 208px;}
+	#bl6, #sep6, 	#bl6li2, #sep6li2, 		#bl6li3, #sep6li3,		#bl6li4, #sep6li4,		#bl6li5, #sep6li5,		#bl6li6, #sep6li6,		#bl6li7, #sep6li7, 		#bl6li8, #sep6li8,		#bl6li9, #sep6li9,		#bl6li10, #sep6li10,	#bl6li11, #sep6li11,	#bl6li12, #sep6li12		{left: 260px;}
+	#bl7, #sep7, 	#bl7li2, #sep7li2,		#bl7li3, #sep7li3,		#bl7li4, #sep7li4,		#bl7li5, #sep7li5,		#bl7li6, #sep7li6,		#bl7li7, #sep7li7,		#bl7li8, #sep7li8,		#bl7li9, #sep7li9,		#bl7li10, #sep7li10,	#bl7li11, #sep7li11,	#bl7li12, #sep7li12		{left: 312px;}
+	#bl8, #sep8, 	#bl8li2, #sep8li2, 		#bl8li3, #sep8li3,		#bl8li4, #sep8li4,		#bl8li5, #sep8li5,		#bl8li6, #sep8li6,		#bl8li7, #sep8li7, 		#bl8li8, #sep8li8,		#bl8li9, #sep8li9,		#bl8li10, #sep8li10,	#bl8li11, #sep8li11,	#bl8li12, #sep8li12		{left: 364px;}
+	#bl9, #sep9, 	#bl9li2, #sep9li2, 		#bl9li3, #sep9li3,		#bl9li4, #sep9li4,		#bl9li5, #sep9li5,		#bl9li6, #sep9li6,		#bl9li7, #sep9li7, 		#bl9li8, #sep9li8,		#bl9li9, #sep9li9,		#bl9li10, #sep9li10,	#bl9li11, #sep9li11,	#bl9li12, #sep9li12		{left: 416px;}
+	#bl10, #sep10, 	#bl10li2, #sep10li2, 	#bl10li3, #sep10li3,	#bl10li4, #sep10li4,	#bl10li5, #sep10li5,	#bl10li6, #sep10li6,	#bl10li7, #sep10li7, 	#bl10li8, #sep10li8,	#bl10li9, #sep10li9,	#bl10li10, #sep10li10,	#bl10li11, #sep10li11,	#bl10li12, #sep10li12	{left: 468px;}
+	#bl11, #sep11, 	#bl11li2, #sep11li2, 	#bl11li3, #sep11li3,	#bl11li4, #sep11li4,	#bl11li5, #sep11li5,	#bl11li6, #sep11li6,	#bl11li7, #sep11li7, 	#bl11li8, #sep11li8,	#bl11li9, #sep11li9,	#bl11li10, #sep11li10,	#bl11li11, #sep11li11,	#bl11li12, #sep11li12	{left: 520px;}
+	#bl12, #sep12, 	#bl12li2, #sep12li2, 	#bl12li3, #sep12li3,	#bl12li4, #sep12li4,	#bl12li5, #sep12li5,	#bl12li6, #sep12li6,	#bl12li7, #sep12li7, 	#bl12li8, #sep12li8,	#bl12li9, #sep12li9,	#bl12li10, #sep12li10,	#bl12li11, #sep12li11,	#bl12li12, #sep12li12	{left: 572px;}
+	#bl13, #sep13, 	#bl13li2, #sep13li2, 	#bl13li3, #sep13li3,	#bl13li4, #sep13li4,	#bl13li5, #sep13li5,	#bl13li6, #sep13li6,	#bl13li7, #sep13li7, 	#bl13li8, #sep13li8,	#bl13li9, #sep13li9,	#bl13li10, #sep13li10,	#bl13li11, #sep13li11,	#bl13li12, #sep13li12	{left: 624px;}
+	#bl14, #sep14, 	#bl14li2, #sep14li2, 	#bl14li3, #sep14li3,	#bl14li4, #sep14li4,	#bl14li5, #sep14li5,	#bl14li6, #sep14li6,	#bl14li7, #sep14li7, 	#bl14li8, #sep14li8,	#bl14li9, #sep14li9,	#bl14li10, #sep14li10,	#bl14li11, #sep14li11,	#bl14li12, #sep14li12	{left: 676px;}
+	#bl15, #sep15, 	#bl15li2, #sep15li2, 	#bl15li3, #sep15li3,	#bl15li4, #sep15li4,	#bl15li5, #sep15li5,	#bl15li6, #sep15li6,	#bl15li7, #sep15li7, 	#bl15li8, #sep15li8,	#bl15li9, #sep15li9,	#bl15li10, #sep15li10,	#bl15li11, #sep15li11,	#bl15li12, #sep15li12	{left: 728px;}
+	#bl16, #sep16, 	#bl16li2, #sep16li2, 	#bl16li3, #sep16li3,	#bl16li4, #sep16li4,	#bl16li5, #sep16li5,	#bl16li6, #sep16li6,	#bl16li7, #sep16li7, 	#bl16li8, #sep16li8,	#bl16li9, #sep16li9,	#bl16li10, #sep16li10,	#bl16li11, #sep16li11,	#bl16li12, #sep16li12	{left: 780px;}
+	#bl17, #sep17, 	#bl17li2, #sep17li2, 	#bl17li3, #sep17li3,	#bl17li4, #sep17li4,	#bl17li5, #sep17li5,	#bl17li6, #sep17li6,	#bl17li7, #sep17li7, 	#bl17li8, #sep17li8,	#bl17li9, #sep17li9,	#bl17li10, #sep17li10,	#bl17li11, #sep17li11,	#bl17li12, #sep17li12	{left: 832px;}
+	#bl18, #sep18, 	#bl18li2, #sep18li2, 	#bl18li3, #sep18li3,	#bl18li4, #sep18li4,	#bl18li5, #sep18li5,	#bl18li6, #sep18li6,	#bl18li7, #sep18li7, 	#bl18li8, #sep18li8,	#bl18li9, #sep18li9,	#bl18li10, #sep18li10,	#bl18li11, #sep18li11,	#bl18li12, #sep18li12	{left: 884px;}
+	#bl19, #sep19, 	#bl19li2, #sep19li2, 	#bl19li3, #sep19li3,	#bl19li4, #sep19li4,	#bl19li5, #sep19li5,	#bl19li6, #sep19li6,	#bl19li7, #sep19li7, 	#bl19li8, #sep19li8,	#bl19li9, #sep19li9,	#bl19li10, #sep19li10,	#bl19li11, #sep19li11,	#bl19li12, #sep19li12	{left: 936px;}
+	#bl20, #sep20, 	#bl20li2, #sep20li2, 	#bl20li3, #sep20li3,	#bl20li4, #sep20li4,	#bl20li5, #sep20li5,	#bl20li6, #sep20li6,	#bl20li7, #sep20li7, 	#bl20li8, #sep20li8,	#bl20li9, #sep20li9,	#bl20li10, #sep20li10,	#bl20li11, #sep20li11,	#bl20li12, #sep20li12	{left: 988px;}
+	#bl21, #sep21, 	#bl21li2, #sep21li2, 	#bl21li3, #sep21li3,	#bl21li4, #sep21li4,	#bl21li5, #sep21li5,	#bl21li6, #sep21li6,	#bl21li7, #sep21li7, 	#bl21li8, #sep21li8,	#bl21li9, #sep21li9,	#bl21li10, #sep21li10,	#bl21li11, #sep21li11,	#bl21li12, #sep21li12	{left: 1040px;}
+	#bl22, #sep22, 	#bl22li2, #sep22li2, 	#bl22li3, #sep22li3,	#bl22li4, #sep22li4,	#bl22li5, #sep22li5,	#bl22li6, #sep22li6,	#bl22li7, #sep22li7, 	#bl22li8, #sep22li8,	#bl22li9, #sep22li9,	#bl22li10, #sep22li10,	#bl22li11, #sep22li11,	#bl22li12, #sep22li12	{left: 1092px;}
+	#bl23, #sep23, 	#bl23li2, #sep23li2, 	#bl23li3, #sep23li3,	#bl23li4, #sep23li4,	#bl23li5, #sep23li5,	#bl23li6, #sep23li6,	#bl23li7, #sep23li7, 	#bl23li8, #sep23li8,	#bl23li9, #sep23li9,	#bl23li10, #sep23li10,	#bl23li11, #sep23li11,	#bl23li12, #sep23li12	{left: 1144px;}
+	#bl24, #sep24, 	#bl24li2, #sep24li2, 	#bl24li3, #sep24li3,	#bl24li4, #sep24li4,	#bl24li5, #sep24li5,	#bl24li6, #sep24li6,	#bl24li7, #sep24li7, 	#bl24li8, #sep24li8,	#bl24li9, #sep24li9,	#bl24li10, #sep24li10,	#bl24li11, #sep24li11,	#bl24li12, #sep24li12	{left: 1196px;}
+	#bl25, #sep25, 	#bl25li2, #sep25li2, 	#bl25li3, #sep25li3,	#bl25li4, #sep25li4,	#bl25li5, #sep25li5,	#bl25li6, #sep25li6,	#bl25li7, #sep25li7, 	#bl25li8, #sep25li8,	#bl25li9, #sep25li9,	#bl25li10, #sep25li10,	#bl25li11, #sep25li11,	#bl25li12, #sep25li12	{left: 1248px;}
+	#bl26, #sep26, 	#bl26li2, #sep26li2, 	#bl26li3, #sep26li3,	#bl26li4, #sep26li4,	#bl26li5, #sep26li5,	#bl26li6, #sep26li6,	#bl26li7, #sep26li7, 	#bl26li8, #sep26li8,	#bl26li9, #sep26li9,	#bl26li10, #sep26li10,	#bl26li11, #sep26li11,	#bl26li12, #sep26li12	{left: 1300px;}
+
+/* 1ª FASE */
+
+	.fix 	{}
+	.li2 	{opacity: 0;}
+	.li3 	{opacity: 0;}
+	.li4 	{opacity: 0;}
+	.li5 	{opacity: 0;}
+	.li6 	{opacity: 0;}
+	.li7 	{opacity: 0;}
+	.li8 	{opacity: 0;}
+	.li9	{opacity: 0;}
+	.li10 	{opacity: 0;}
+	.li11 	{opacity: 0;}
+	.li12 	{}
+
+	#bl1, #bl1li4 {background: #444444}
+
+	#bl1li2, #bl26li2 	{opacity: 1;}
+	#bl1li3, #bl26li3 	{opacity: 1;}
+	#bl1li4, #bl26li4 	{opacity: 1;}
+	#bl1li5, #bl26li5 	{opacity: 1;}
+	#bl1li6, #bl26li6 	{opacity: 1;}
+	#bl1li7, #bl26li7 	{opacity: 1;}
+	#bl1li8, #bl26li8 	{opacity: 1;}
+	#bl1li9, #bl26li9 	{opacity: 1;}
+	#bl1li10, #bl26li10 {opacity: 1;}
+	#bl1li11, #bl26li11 {opacity: 1;}
+	#bl1li12, #bl26li12 {opacity: 1;}
+	#bl1li13, #bl26li13 {opacity: 1;}
+	#bl1li14, #bl26li14 {opacity: 1;}
+	#bl1li15, #bl26li15 {opacity: 1;}
+	#bl1li16, #bl26li16 {opacity: 1;}
+	#bl1li17, #bl26li17 {opacity: 1;}
+	#bl1li18, #bl26li18 {opacity: 1;}
+	#bl1li19, #bl26li19 {opacity: 1;}
+	#bl1li20, #bl26li20 {opacity: 1;}
+	#bl1li21, #bl26li21 {opacity: 1;}
+	#bl1li22, #bl26li22 {opacity: 1;}
+	#bl1li23, #bl26li23 {opacity: 1;}
+	#bl1li24, #bl26li24 {opacity: 1;}
+	#bl1li25, #bl26li25 {opacity: 1;}
+
+/* TRANSPORTE 5 */
+
+	#bl3, #sep3 {	animation-duration: 180s;	}
+	
+	@keyframes transporte5 {
+	0% {top: 0px; left: 104px;}
+	1% {top: 52px; left:104px;}
+	2% {top: 52px; left: 416px;}
+
+	3% {top: 0px; left: 416px;}
+	97% {top: 0px; left: 416px;}
+
+	98% {top: 52px; left: 624px;}
+	99% {top: 52px; left: 104px; }
+	100% {top: 0px; left: 104px;}
+	}
+
+	#bl9, #sep9 {	animation-duration: 180s;	}
+	
+	@keyframes transporte51 {
+	0% {top: 0px;}
+	2% {top: 0px; left: 104px;}
+
+	98% {top: 0px; left: 104px; }
+	100% {top: 0px; left: 416px;}
+	}
+
+/* TRANSPORTE 1 */
+
+	#bl7, #sep7 {	animation-duration: 180s;	}
+	
+	@keyframes transporte {
+	0% {top: 0px;}
+	1% {top: 52px; left:312px;}
+	2% {top: 52px; left: 624px;}
+
+	3% {top: 0px; left: 624px;}
+	97% {top: 0px; left: 624px;}
+
+	98% {top: 52px; left: 624px;}
+	99% {top: 52px; left: 312px; }
+	100% {top: 0px; left: 312px;}
+	}
+
+	#bl13, #sep13 {	animation-duration: 180s;	}
+	
+	@keyframes transporte11 {
+	0% {top: 0px;}
+	2% {top: 0px; left: 312px;}
+
+	98% {top: 0px; left: 312px; }
+	100% {top: 0px; left: 624px;}
+	}
+
+	#bl26li3 {
+	animation-duration: 2s;
+	animation-iteration-count: 20;
+	}
+
+/* TRANSPORTE 6 */
+
+	#bl13, #sep13 {	animation-duration: 180s;	}
+	
+	@keyframes transporte6 {
+	0% {top: 0px; left: 624px;}
+	1% {top: 52px; left:624px;}
+	2% {top: 52px; left: 676px;}
+
+	3% {top: 0px; left: 676px;}
+	97% {top: 0px; left: 676px;}
+
+	98% {top: 52px; left: 676px;}
+	99% {top: 52px; left: 624px; }
+	100% {top: 0px; left: 624px;}
+	}
+
+	#bl14, #sep14 {	animation-duration: 180s;	}
+	
+	@keyframes transporte61 {
+	0% {top: 0px;}
+	2% {top: 0px; left: 624px;}
+
+	98% {top: 0px; left: 624px; }
+	100% {top: 0px; left: 676px;}
+	}
+
+/* TRANSPORTE 7 */
+
+	#bl16, #sep16 {	animation-duration: 180s;	}
+	
+	@keyframes transporte7 {
+	0% {top: 0px; left: 780px;}
+	1% {top: 572px; left:780px;}
+
+	3% {top: 572px; left: 780px;}
+	97% {top: 572px; left: 780px;}
+
+	99% {top: 572px; left: 780px; }
+	100% {top: 0px; left: 780px;}
+	}
+
+	#bl16li12, #sep16li12 {	animation-duration: 180s;	}
+	
+	@keyframes transporte71 {
+	0% {top: 572px;}
+	2% {top: 0px; left: 780px;}
+
+	98% {top: 0px; left: 780px; }
+	100% {top: 572px; left: 780px;}
+	}
+
+
+/* ESTICAR 1 */
+
+	#bl9li3 {	animation-duration: 180s;	}
+	
+	@keyframes esticar {
+	0% {}
+	5% {width: 900px;}
+	90% {width: 900px;}
+	100% {width: 50px;}
+	}
+
+	@keyframes sinalizar {
+	0% {}
+	50% {background: yellow;}
+	100% {background: #00ee00;}
+	}
+
+/* TELEPORTE 1 */
+
+	#bl10li2 {
+	transition: filter 3s ease-in;
+	filter: blur(5px)
+	}
+
+	#bl10li2:hover {
+	filter: blur(100px) opacity(0.0);
+	}
+
+	#bl17li2 {
+	transition: filter 2s ease-in;
+	filter: blur(50px);
+	animation-duration: 3s;
+	animation-iteration-count: 3;
+	}
+
+	#bl17li2:hover {
+	filter: blur(5px);
+	}
+
+	@keyframes sinalizar2 {
+	0% {}
+	25% {background: blue; filter: blur(10px)}
+	50% {background: blue; filter: blur(50px)}
+	75% {background: lightblue; filter: blur(10px)}
+	100% {background: blue; filter: blur(50px)}
+	}
+
+/* ESTICAR 2 */
+
+	#bl26li5 	{	animation-duration: 180s;	}
+
+	@keyframes esticar2 {
+	0% {}
+	3% {left: 468px; width: 881px;}
+	97% {left: 468px; width: 881px;}
+	100% {left: 1300px; width: 50px;}
+	}
+
+/* TRANSPORTE 2 */
+
+	#bl11li12, #sep11li12 {	animation-duration: 180s;	}
+	
+	@keyframes transporte2 {
+	0% {top: 572px;}
+	1% {top: 520px; left: 520px;}
+	2% {top: 520px; left: 312px;}
+
+	3% {top: 572px; left: 312px;}
+	97% {top: 572px; left: 312px;}
+
+	98% {top: 520px; left: 312px;}
+	99% {top: 520px; left: 520px; }
+	100% {top: 572px; left: 520px;}
+	}
+
+	#bl7li12, #sep7li12 {	animation-duration: 180s;	}
+
+	@keyframes transporte21 {
+	0% {top: 572px;}
+	2% {top: 572px; left: 520px;}
+
+	98% {top: 572px; left: 520px; }
+	100% {top: 572px; left: 312px;}
+	}
+
+
+/* TRANSPORTE 3 */
+
+	#bl18li12, #sep18li12 {	animation-duration: 180s;	}
+	
+	@keyframes transporte3 {
+	0% {top: 572px;}
+	1% {top: 520px; left: 884px;}
+	2% {top: 520px; left: 208px;}
+
+	3% {top: 572px; left: 208px;}
+	97% {top: 572px; left: 208px;}
+
+	98% {top: 520px; left: 208px;}
+	99% {top: 520px; left: 884px; }
+	100% {top: 572px; left: 884px;}
+	}
+
+	#bl5li12, #sep5li12 {	animation-duration: 180s;	}
+
+	@keyframes transporte31 {
+	0% {top: 572px;}
+	2% {top: 572px; left: 884px;}
+
+	98% {top: 572px; left: 884px; }
+	100% {top: 572px; left: 208px;}
+	}
+
+/* ESTICAR 3 */
+
+	#bl7li3 {	animation-duration: 180s;	}
+
+	@keyframes esticar3 {
+	0% {}
+	3% {height: 151px;}
+	97% {height: 151px;}
+	100% {height: 50px;}
+	}
+
+	#bl7li6 {
+	animation-duration: 2s;
+	animation-iteration-count: 20;
+	}
+
+/* CADEIA */
+
+	#bl1li5 {	animation-duration: 40s;	}
+	
+	@keyframes transporte4 {
+	0% {top: 208px;}
+	2% {top: 208px; left: 312px;}
+	4% {top: 364px; left: 312px;}
+	96% {top: 364px; left: 312px;}
+	98% {top: 208px; left: 312px;}
+	100% {top: 208px; left: 0px;}
+	}
+
+/* MUDAR 1 */
+	
+	#bl16li12, #sep16li12, #bl20, #sep20, #bl26li2, #sep26li2, #bl10li12, #sep10li12, #bl8, #sep8, #bl26li8, #sep26li8, #bl14, #sep14, #bl23li12, #sep23li12 {
+	animation-duration: 180s;
+	}
+
+	@keyframes mudar {
+	0% {top: 364px; left: 1300px;}
+	2% {top: 0px; left: 364px;}
+	98% {top: 0px; left: 364px; }
+	100% {top: 364px; left: 1300px;}
+	}
+	
+	@keyframes mudar2 {
+	0% {top: 0px; left: 364px;}
+	2% {top: 364px; left: 1300px; }
+	98% {top: 364px; left: 1300px;}
+	100% {top: 0px; left: 364px;}
+	}
+	
+	@keyframes mudar3 {
+	0% {top: 572px; left: 462px;}
+	2% {top: 52px; left: 1300px; }
+	98% {top: 52px; left: 1300px;}
+	100% {top: 572px; left: 462px;}
+	}
+
+	@keyframes mudar4 {
+	0% {top: 52px; left: 1300px;}
+	2% {top: 572px; left: 468px;}
+	98% {top: 572px; left: 468px;}
+	100% {top: 52px; left: 1300px;}
+	}
+
+	@keyframes mudar5 {
+	0% {top: 0px; left: 988px;}
+	2% {top: 572px; left: 780px; }
+	98% {top: 572px; left: 780px;}
+	100% {top: 0px; left: 988px;}
+	}
+	
+	@keyframes mudar6 {
+	0% {top: 572px; left: 780px; }
+	2% {top: 0px; left: 988px;}
+	98% {top: 0px; left: 988px;}
+	100% {top: 572px; left: 780px; }
+	}
+
+	@keyframes mudar7 {
+	0% {top: 0px; left: 676px; }
+	2% {top: 572px; left: 1144px;}
+	98% {top: 572px; left: 1144px;}
+	100% {top: 0px; left: 676px; }
+	}
+
+	@keyframes mudar8 {
+	0% {top: 572px; left: 1144px;}
+	2% {top: 0px; left: 676px;}
+	98% {top: 0px; left: 676px; }
+	100% {top: 572px; left: 1144px;}
+	}
+
+/* TELEPORTE 2 */
+
+	#bl17li9 {
+	transition: filter 3s ease-in;
+	filter: blur(5px)
+	}
+
+	#bl17li9:hover {
+	filter: blur(100px) opacity(0.0);
+	}
+
+	#bl24li2 {
+	transition: filter 2s ease-in;
+	filter: blur(50px);
+	animation-duration: 3s;
+	animation-iteration-count: 3;
+	}
+
+	#bl24li2:hover {
+	filter: blur(5px);
+	}
+
+	@keyframes sinalizar3 {
+	0% {}
+	25% {background: blue; filter: blur(10px)}
+	50% {background: blue; filter: blur(50px)}
+	75% {background: lightblue; filter: blur(10px)}
+	100% {background: blue; filter: blur(50px)}
